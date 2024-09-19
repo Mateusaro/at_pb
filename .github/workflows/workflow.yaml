@@ -25,7 +25,9 @@ jobs:
           distribution: 'temurin'
 
       - name: Build project with Maven
-        run: mvn clean package
+        run: |
+          cd Crud
+          mvn clean package
 
       - name: Install Docker Compose
         run: |

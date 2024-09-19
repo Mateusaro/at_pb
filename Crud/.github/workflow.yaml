@@ -1,4 +1,4 @@
-name: Build and Push Docker Image
+name: Build and Push Docker
 
 # Aciona o workflow quando há push na branch main
 on:

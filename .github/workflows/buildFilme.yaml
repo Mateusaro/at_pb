@@ -4,7 +4,7 @@ name: Build and Push Filme
 on:
   push:
     branches:
-      - main
+      - master
 
   # Também pode ser acionado manualmente
   workflow_dispatch:

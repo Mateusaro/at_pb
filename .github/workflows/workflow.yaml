@@ -3,10 +3,10 @@ name: CI
 on:
   push:
     branches:
-      - main  # Ou 'master', se esse for o nome da sua branch
+      - master  # Ou 'master', se esse for o nome da sua branch
   pull_request:
     branches:
-      - main  # Ou 'master', se esse for o nome da sua branch
+      - master  # Ou 'master', se esse for o nome da sua branch
 
 jobs:
   build:
